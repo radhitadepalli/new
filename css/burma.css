@@ -1,0 +1,70 @@
+/* Style the modal (fullscreen) */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 4%;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    transition: opacity 0.3s;
+    text-align: center;
+    backdrop-filter: blur(5px); /* Add background blur effect */
+}
+.modal2 {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 3%;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    transition: opacity 0.3s;
+    text-align: center;
+    backdrop-filter: blur(5px); /* Add background blur effect */
+}
+.pedal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 3%;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    transition: opacity 0.3s;
+    text-align: center;
+    backdrop-filter: blur(5px); /* Add background blur effect */
+}
+
+
+/* Style the modal content (image) */
+.modal-content {
+    max-width: 90%; /* Make the image slightly larger */
+    max-height: 90vh; /* Make the image slightly larger */
+    margin: 0 auto;
+    display: block;
+    width:70%;
+    height:auto;
+}
+
+/* Style the close button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Style the button with a pointer cursor */
+button {
+    cursor: pointer;
+}

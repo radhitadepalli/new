@@ -1,0 +1,79 @@
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+
+  .fullscreen-button {
+    font-size: 2rem;
+    cursor: pointer;
+  }
+
+  .texted {
+    position: absolute;
+    top: 4%;
+    left: 189%;
+    transform: translate(-47%, -53%);
+  }
+
+  .texted2 {
+    position: absolute;
+    top: 5%;
+    left: 140%;
+    transform: translate(-47%, -53%);
+  }
+
+  .compressedImage {
+    display: block;
+    max-width: 150%;
+    height: auto;
+  }
+
+  .centeredrow {
+    display: flex;
+    justify-content: center;
+    /* Center the columns horizontally */
+  }
+
+  .spacedcolumns {
+    margin: 10px;
+    /* Add margin between columns if desired */
+  }
+
+  .kodal-content {
+    max-width: 90%;
+    /* Make the image slightly larger */
+    max-height: 90vh;
+    /* Make the image slightly larger */
+    margin: 0 auto;
+    display: block;
+    width: 37%;
+    height: auto;
+  }
+
+  .pedal-content {
+    max-width: 90%;
+    /* Make the image slightly larger */
+    max-height: 90vh;
+    /* Make the image slightly larger */
+    margin: 0 auto;
+    display: block;
+    width: 40%;
+    height: auto;
+  }
+
+   .mybutton {
+    border: none;
+    /* Remove the border around the button */
+    background: transparent;
+    /* Make the button background transparent*/
+    padding: 0;
+    /* Remove any padding */
+      border: none;
+      background: transparent;
+      padding: 0;
+      position: absolute;
+      top: 2.5%;
+      left: 84%;
+  } 
